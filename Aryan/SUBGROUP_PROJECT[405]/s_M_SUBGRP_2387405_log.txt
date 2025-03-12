@@ -1,0 +1,1301 @@
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6014 : Initializing session [s_M_SUBGRP_2387405] at [Wed Mar 12 17:40:11 2025].
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6683 : Repository Name: [REP]
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6684 : Server Name: [IS]
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6686 : Folder: [project]
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6685 : Workflow: [WF_SUBGROUP_2387405] Run Instance Name: [] Run Id: [34]
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6992 : Operating System Type [NT]
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6101 : Mapping name: M_SUBGRP_2387405.
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6703 : Session [s_M_SUBGRP_2387405] is run by 64-bit Integration Service  [node01], version [10.5.2], build [0322].
+2025-03-12 17:40:11 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2025-03-12 17:40:11 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24058 : Running Partition Group [1].
+2025-03-12 17:40:11 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2025-03-12 17:40:11 : INFO : (12016 | MONITOR) : (IS | IS) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2025-03-12 17:40:11 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2025-03-12 17:40:11 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24003 : Initializing session run.
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : CMN_1569 : Server Mode: [ASCII]
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TM_6151 : The session sort order is [Binary].
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : CMN_65110 : Current Timezone:[UTC +5:30]
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : CMN_65112 : Current Process ID:[12016]
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TM_6156 : Using low precision processing.
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TM_6307 : DTM error log disabled. 
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TE_7022 : TShmWriter: Initialized
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : DBG_21075 : Connecting to database [orcl], Type [Oracle], User [system]
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TM_6007 : DTM initialized successfully for session [s_M_SUBGRP_2387405]
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2025-03-12 17:40:11 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Wed Mar 12 17:40:11 2025)
+2025-03-12 17:40:11 : INFO : (12016 | PRE-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2025-03-12 17:40:11 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Wed Mar 12 17:40:11 2025)
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : PETL_24006 : Starting data movement.
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [1] lookup caches; [0] on-demand only).
+2025-03-12 17:40:11 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 1829472 bytes and Block size is 65536 bytes.
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1) : (IS | IS) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS]: Default sql to create lookup cache: SELECT GROUP_ID FROM GROUP_2387405 ORDER BY GROUP_ID
+
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS] from [178956970] to [178959600].
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS] from [357913940] to [357916672].
+2025-03-12 17:40:11 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS].
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [6].
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [7].
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : DBG_21438 : Reader: Source is [orcl], Type [Oracle], User [system]
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : FR_3118 : source [SQ_Subgrp_Tab] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-12 17:40:11 : INFO : (12016 | TRANSF_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [8].
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [9].
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8147 : Writer: Target is Database [orcl], Type [Oracle], User [system], Bulk Mode [OFF]
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [10].
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Wed Mar 12 17:40:11 2025)
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SUBGRP_2387405 :SQL INSERT statement:
+INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SUBGRP_2387405 :SQL UPDATE statement:
+UPDATE SUBGRP_2387405 SET SUBGRP_SK = ?, SUBGRP_NAME = ?, EFF_DATE = ?, TERM_DT = ? WHERE SUBGRP_ID = ? AND GROUP_ID = ?
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SUBGRP_2387405 :SQL DELETE statement:
+DELETE FROM SUBGRP_2387405 WHERE SUBGRP_ID = ? AND GROUP_ID = ?
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SUBGRP_Join_Error_2387405 :Writing output to: C:\Users\Administrator\Documents\Interim_Project-main\Source\subgrp_join_error_reject_2387405.txt
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8222 : Target file [C:\Users\Administrator\Documents\Interim_Project-main\Source\subgrp_join_error_reject_2387405.txt] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [SUBGRP_2387405]
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #2 consists of target(s) [SUBGRP_Join_Error_2387405]
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8003 : Writer initialization complete.
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Wed Mar 12 17:40:11 2025)
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8005 : Writer run started.
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Wed Mar 12 17:40:11 2025
+
+Target tables:
+
+     SUBGRP_2387405
+     SUBGRP_Join_Error_2387405
+
+
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : FR_3076 : Skipped over [1] lines.
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Users\Administrator\Documents\Interim_Project-main\Source\Subgrp_Tab.txt] : (Wed Mar 12 17:40:11 2025)
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16019 : Read [64] rows, read [0] error rows for source table [Subgrp_Tab] instance name [Subgrp_Tab]
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Wed Mar 12 17:40:11 2025)
+2025-03-12 17:40:11 : INFO : (12016 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21682 : Lookup table row count : 2
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21297 : Lookup cache row count : 2
+
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Wed Mar 12 17:40:11 2025)
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : CMN_1671 : Created new cache files PMLKUP33_5_0_34W64.[dat/idx] in directory C:\Informatica\10.5.2\server\infa_shared\Cache for Lookup [LKPTRANS].
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21641 : LKPTRANS: Index cache size = [178959600], Data cache size = [357916672]
+2025-03-12 17:40:11 : INFO : (12016 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS{{DSQ}}]. Total errors [0] 
+2025-03-12 17:40:11 : INFO : (12016 | TRANSF_1_1_1) : (IS | IS) : node01 : TT_11186 : Lookup cache of [LKPTRANS], previously started by an additional concurrent pipeline, is now needed on demand.
+2025-03-12 17:40:11 : INFO : (12016 | TRANSF_1_1_1) : (IS | IS) : node01 : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [SUBGRP_2387405] at: Wed Mar 12 17:40:11 2025
+2025-03-12 17:40:11 : INFO : (12016 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Subgrp_Tab]. Total errors [0] 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [1] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=8 Targ Rowid=8
+  SUBGRP_SK (SUBGRP_SK:Double:): "8.000000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0001"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "WORKERS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012346"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [2] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=9 Targ Rowid=9
+  SUBGRP_SK (SUBGRP_SK:Double:): "9.000000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0002"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ASSOCIATES"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012346"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [3] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=10 Targ Rowid=10
+  SUBGRP_SK (SUBGRP_SK:Double:): "10.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0003"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "MANAGERS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012346"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [4] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=11 Targ Rowid=11
+  SUBGRP_SK (SUBGRP_SK:Double:): "11.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0004"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "HRS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012346"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (SYSTEM.SYS_C0011590) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [5] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=12 Targ Rowid=12
+  SUBGRP_SK (SUBGRP_SK:Double:): "12.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0005"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "DIRECTORS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2013 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012345"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (SYSTEM.SYS_C0011590) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [6] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=13 Targ Rowid=13
+  SUBGRP_SK (SUBGRP_SK:Double:): "13.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0006"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ADMINS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2013 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012345"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [7] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=14 Targ Rowid=14
+  SUBGRP_SK (SUBGRP_SK:Double:): "14.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0007"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "SECURITY"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012346"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (SYSTEM.SYS_C0011590) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [8] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=15 Targ Rowid=15
+  SUBGRP_SK (SUBGRP_SK:Double:): "15.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0001"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "WORKERS"
+  EFF_DATE (EFF_DATE:Date:): "06/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2013 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012345"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (SYSTEM.SYS_C0011590) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [9] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=21 Targ Rowid=21
+  SUBGRP_SK (SUBGRP_SK:Double:): "21.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0007"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "SECURITY"
+  EFF_DATE (EFF_DATE:Date:): "06/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2013 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012345"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [10] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=22 Targ Rowid=22
+  SUBGRP_SK (SUBGRP_SK:Double:): "22.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0001"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "WORKERS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012348"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [11] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=23 Targ Rowid=23
+  SUBGRP_SK (SUBGRP_SK:Double:): "23.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0002"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ASSOCIATES"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012348"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [12] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=24 Targ Rowid=24
+  SUBGRP_SK (SUBGRP_SK:Double:): "24.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0003"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "MANAGERS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012348"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [13] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=25 Targ Rowid=25
+  SUBGRP_SK (SUBGRP_SK:Double:): "25.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0004"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "HRS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012348"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [14] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=26 Targ Rowid=26
+  SUBGRP_SK (SUBGRP_SK:Double:): "26.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0005"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "DIRECTORS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012348"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [15] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=27 Targ Rowid=27
+  SUBGRP_SK (SUBGRP_SK:Double:): "27.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0006"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ADMINS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2013 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012348"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [16] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=28 Targ Rowid=28
+  SUBGRP_SK (SUBGRP_SK:Double:): "28.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0007"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "SECURITY"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2013 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012348"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [17] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=29 Targ Rowid=29
+  SUBGRP_SK (SUBGRP_SK:Double:): "29.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0001"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "WORKERS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012349"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [18] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=30 Targ Rowid=30
+  SUBGRP_SK (SUBGRP_SK:Double:): "30.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0002"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ASSOCIATES"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012349"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [19] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=31 Targ Rowid=31
+  SUBGRP_SK (SUBGRP_SK:Double:): "31.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0003"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "MANAGERS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012349"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [20] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=32 Targ Rowid=32
+  SUBGRP_SK (SUBGRP_SK:Double:): "32.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0004"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "HRS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012349"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [21] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=33 Targ Rowid=33
+  SUBGRP_SK (SUBGRP_SK:Double:): "33.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0005"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "DIRECTORS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2012 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012349"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [22] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=34 Targ Rowid=34
+  SUBGRP_SK (SUBGRP_SK:Double:): "34.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0006"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ADMINS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012349"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [23] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=35 Targ Rowid=35
+  SUBGRP_SK (SUBGRP_SK:Double:): "35.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0007"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "SECURITY"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012349"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [24] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=36 Targ Rowid=36
+  SUBGRP_SK (SUBGRP_SK:Double:): "36.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0001"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "WORKERS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012350"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [25] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=37 Targ Rowid=37
+  SUBGRP_SK (SUBGRP_SK:Double:): "37.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0002"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ASSOCIATES"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012350"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [26] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=38 Targ Rowid=38
+  SUBGRP_SK (SUBGRP_SK:Double:): "38.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0003"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "MANAGERS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012350"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [27] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=39 Targ Rowid=39
+  SUBGRP_SK (SUBGRP_SK:Double:): "39.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0004"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "HRS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2012 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012349"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [28] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=40 Targ Rowid=40
+  SUBGRP_SK (SUBGRP_SK:Double:): "40.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0005"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "DIRECTORS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012361"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [29] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=41 Targ Rowid=41
+  SUBGRP_SK (SUBGRP_SK:Double:): "41.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0006"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ADMINS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012350"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [30] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=42 Targ Rowid=42
+  SUBGRP_SK (SUBGRP_SK:Double:): "42.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0007"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "SECURITY"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012350"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [31] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=43 Targ Rowid=43
+  SUBGRP_SK (SUBGRP_SK:Double:): "43.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0001"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "WORKERS"
+  EFF_DATE (EFF_DATE:Date:): "06/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2016 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012351"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [32] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=44 Targ Rowid=44
+  SUBGRP_SK (SUBGRP_SK:Double:): "44.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0002"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ASSOCIATES"
+  EFF_DATE (EFF_DATE:Date:): "06/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2016 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012351"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [33] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=45 Targ Rowid=45
+  SUBGRP_SK (SUBGRP_SK:Double:): "45.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0003"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "MANAGERS"
+  EFF_DATE (EFF_DATE:Date:): "06/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2016 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012351"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [34] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=46 Targ Rowid=46
+  SUBGRP_SK (SUBGRP_SK:Double:): "46.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0004"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "HRS"
+  EFF_DATE (EFF_DATE:Date:): "06/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2016 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012351"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [35] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=47 Targ Rowid=47
+  SUBGRP_SK (SUBGRP_SK:Double:): "47.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0005"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "DIRECTORS"
+  EFF_DATE (EFF_DATE:Date:): "06/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2016 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012351"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [36] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=48 Targ Rowid=48
+  SUBGRP_SK (SUBGRP_SK:Double:): "48.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0007"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "SECURITY"
+  EFF_DATE (EFF_DATE:Date:): "06/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2016 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012351"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [37] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=49 Targ Rowid=49
+  SUBGRP_SK (SUBGRP_SK:Double:): "49.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0001"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "WORKERS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012352"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [38] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=50 Targ Rowid=50
+  SUBGRP_SK (SUBGRP_SK:Double:): "50.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0002"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ASSOCIATES"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012352"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [39] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=51 Targ Rowid=51
+  SUBGRP_SK (SUBGRP_SK:Double:): "51.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0003"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "MANAGERS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012352"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [40] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=52 Targ Rowid=52
+  SUBGRP_SK (SUBGRP_SK:Double:): "52.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0004"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "HRS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012352"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [41] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=53 Targ Rowid=53
+  SUBGRP_SK (SUBGRP_SK:Double:): "53.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0005"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "DIRECTORS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2011 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012352"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [42] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=54 Targ Rowid=54
+  SUBGRP_SK (SUBGRP_SK:Double:): "54.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0006"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ADMINS"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012352"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [43] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=55 Targ Rowid=55
+  SUBGRP_SK (SUBGRP_SK:Double:): "55.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0007"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "SECURITY"
+  EFF_DATE (EFF_DATE:Date:): "03/01/2012 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2017 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012352"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [44] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=56 Targ Rowid=56
+  SUBGRP_SK (SUBGRP_SK:Double:): "56.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0001"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "WORKERS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2011 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012353"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [45] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=57 Targ Rowid=57
+  SUBGRP_SK (SUBGRP_SK:Double:): "57.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0002"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ASSOCIATES"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2011 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012353"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [46] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=58 Targ Rowid=58
+  SUBGRP_SK (SUBGRP_SK:Double:): "58.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0003"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "MANAGERS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2011 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012353"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [47] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=59 Targ Rowid=59
+  SUBGRP_SK (SUBGRP_SK:Double:): "59.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0004"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "HRS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2011 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012353"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [48] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=60 Targ Rowid=60
+  SUBGRP_SK (SUBGRP_SK:Double:): "60.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0005"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "DIRECTORS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2011 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2011 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012353"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [49] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=61 Targ Rowid=61
+  SUBGRP_SK (SUBGRP_SK:Double:): "61.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0006"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ADMINS"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2011 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012353"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [50] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=62 Targ Rowid=62
+  SUBGRP_SK (SUBGRP_SK:Double:): "62.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0007"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "SECURITY"
+  EFF_DATE (EFF_DATE:Date:): "12/01/2011 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2014 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012353"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [51] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=63 Targ Rowid=63
+  SUBGRP_SK (SUBGRP_SK:Double:): "63.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0001"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "WORKERS"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2011 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012354"
+)
+
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8229 : Database errors occurred: 
+ORA-02291: integrity constraint (SYSTEM.SYS_C0011591) violated - parent key not found
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO SUBGRP_2387405(SUBGRP_SK,SUBGRP_ID,SUBGRP_NAME,EFF_DATE,TERM_DT,GROUP_ID)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2025-03-12 17:40:11 : ERROR : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8114 : 
+Row # [52] in bad file
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=64 Targ Rowid=64
+  SUBGRP_SK (SUBGRP_SK:Double:): "64.00000000000000"
+  SUBGRP_ID (SUBGRP_ID:Char.4:): "0002"
+  SUBGRP_NAME (SUBGRP_NAME:Char.30:): "ASSOCIATES"
+  EFF_DATE (EFF_DATE:Date:): "09/01/2011 00:00:00.000000000"
+  TERM_DT (TERM_DT:Date:): "12/31/2015 00:00:00.000000000"
+  GROUP_ID (GROUP_ID:Char.8:): "00012361"
+)
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [SUBGRP_Join_Error_2387405] at: Wed Mar 12 17:40:11 2025
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [SUBGRP_2387405] at: Wed Mar 12 17:40:11 2025
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8141 : 
+Commit on end-of-data  Wed Mar 12 17:40:11 2025
+===================================================
+
+WRT_8036 Target: SUBGRP_2387405 (Instance Name: [SUBGRP_2387405])
+WRT_8038 Inserted rows - Requested: 64         Applied: 12         Rejected: 52         Affected: 12        
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [SUBGRP_Join_Error_2387405] at: Wed Mar 12 17:40:11 2025
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8035 : Load complete time: Wed Mar 12 17:40:11 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: SUBGRP_2387405 (Instance Name: [SUBGRP_2387405])
+WRT_8038 Inserted rows - Requested: 64         Applied: 12         Rejected: 52         Affected: 12        
+
+WRT_8036 Target: SUBGRP_Join_Error_2387405 (Instance Name: [SUBGRP_Join_Error_2387405])
+WRT_8038 Inserted rows - Requested: 48         Applied: 48         Rejected: 0          Affected: 48        
+
+
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2025-03-12 17:40:11 : INFO : (12016 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8006 : Writer run completed.
+2025-03-12 17:40:11 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Subgrp_Tab] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_Subgrp_Tab] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [SUBGRP_2387405, SUBGRP_Join_Error_2387405] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-03-12 17:40:12 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : CMN_1793 : The index cache size that would hold [2] rows in the lookup table for [LKPTRANS], in memory, is [3600] bytes
+2025-03-12 17:40:12 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : CMN_1792 : The data cache size that would hold [2] rows in the lookup table for [LKPTRANS], in memory, is [16384] bytes
+2025-03-12 17:40:12 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Wed Mar 12 17:40:12 2025)
+2025-03-12 17:40:12 : INFO : (12016 | POST-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [11].
+2025-03-12 17:40:12 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Wed Mar 12 17:40:12 2025)
+2025-03-12 17:40:12 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TE_7216 : Deleting cache files [PMLKUP33_5_0_34W64] for transformation [LKPTRANS].
+2025-03-12 17:40:12 : INFO : (12016 | MAPPING) : (IS | IS) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2025-03-12 17:40:12 : INFO : (12016 | MANAGER) : (IS | IS) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2025-03-12 17:40:12 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : PETL_24012 : Session run completed successfully.
+2025-03-12 17:40:12 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2025-03-12 17:40:12 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6252 : Source Load Summary.
+2025-03-12 17:40:12 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SQ_Subgrp_Tab] (Instance Name: [SQ_Subgrp_Tab])
+	 Output Rows [64], Affected Rows [64], Applied Rows [64], Rejected Rows [0]
+2025-03-12 17:40:12 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6253 : Target Load Summary.
+2025-03-12 17:40:12 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SUBGRP_2387405] (Instance Name: [SUBGRP_2387405])
+	 Output Rows [12], Affected Rows [12], Applied Rows [12], Rejected Rows [52]
+2025-03-12 17:40:12 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SUBGRP_Join_Error_2387405] (Instance Name: [SUBGRP_Join_Error_2387405])
+	 Output Rows [48], Affected Rows [48], Applied Rows [48], Rejected Rows [0]
+2025-03-12 17:40:12 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6023 : 
+===================================================
+
+2025-03-12 17:40:12 : INFO : (12016 | DIRECTOR) : (IS | IS) : node01 : TM_6020 : Session [s_M_SUBGRP_2387405] completed at [Wed Mar 12 17:40:12 2025].
